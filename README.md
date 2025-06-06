@@ -1,10 +1,10 @@
-# ⚡ Chat-Bot – _One-liner that hooks the reader_
+# ⚡ Chat-Bot-Project
 
 > _A short, punchy description of your project. Example:_  
 > Supercharge your productivity with this lightweight, AI-powered task manager. Built for speed, simplicity, and control.
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/yourproject?style=social)
-![MIT License](https://img.shields.io/github/license/yourusername/yourproject)
+![GitHub stars](https://img.shields.io/github/stars/SonOfChrist/ChatBot-Project?style=social)
+![MIT License](https://img.shields.io/github/license/SonOfChrist/ChatBot-Project)
 
 ---
 
@@ -20,17 +20,17 @@
 
 ### 📸 Screenshots
 
-> _Optional, but highly engaging_
+> Front-End Page
 
-![App Screenshot](assets/screenshot.png)
+![App Screenshot](assets/Screenshot 2025-06-06 204024.png)
 
 ---
 
 ### ⚙️ Quick Start
 
 ```bash
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/SonOfChrist/ChatBot-Project
 cd yourproject
 npm install
-npm start
+npm run dev
 
