@@ -22,7 +22,7 @@
 
 > Front-End Page
 
-![Chatbot Screenshot](assets/Screenshot 2025-06-06 204024.png)
+<img src="./src/assets/Screenshot 2025-06-06 204024.png" alt="Chat-Bot">
 
 ---
 
