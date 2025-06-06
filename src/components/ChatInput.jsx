@@ -3,10 +3,12 @@ import { Chatbot } from 'supersimpledev';
 import './ChatInput.css';
 
 export function ChatInput({ chatMessages, setChatMessages}){
+
   const [inputText, setInputText] = useState('');
+
   function saveInputtext(event) {
       setInputText(event.target.value)
-  }
+  };
       function sendMessage() {
           const newChatMessages = [
               ...chatMessages,
