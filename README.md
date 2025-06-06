@@ -22,7 +22,7 @@
 
 > Front-End Page
 
-![App Screenshot](assets/Screenshot 2025-06-06 204024.png)
+![Chatbot Screenshot](assets/Screenshot 2025-06-06 204024.png)
 
 ---
 
