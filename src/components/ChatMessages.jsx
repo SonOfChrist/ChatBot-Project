@@ -9,7 +9,7 @@ function ChatMessages({ chatMessages }) {
       if(containerElem){
           containerElem.scrollTop = containerElem.scrollHeight;
       }
-  }, [chatMessages]);
+  }, [chatMessages]);                       //Dependancy Array 
 
   return(
       <div className="chat-messages-container" ref={chatMessagesRef}>
