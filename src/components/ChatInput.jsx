@@ -30,7 +30,7 @@ export function ChatInput({ chatMessages, setChatMessages}){
               }
           ]);
           setInputText('');
-      }
+      };
       
   return(
       <div className="chat-input-container">
@@ -38,7 +38,7 @@ export function ChatInput({ chatMessages, setChatMessages}){
             placeholder="Send a message to Chatbot" 
             size="30" 
             onChange={saveInputtext} 
-            value = {inputText} 
+            value = {inputText}     
             className="chat-input" 
           />
           <button 

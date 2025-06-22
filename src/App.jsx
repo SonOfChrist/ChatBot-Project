@@ -4,6 +4,7 @@ import ChatMessages from './components/ChatMessages';
 import './App.css'
 
 function App() {
+  //State to store chat messages --> Array Destructuring --> Lifting State Up
   const [chatMessages, setChatMessages] = useState([{
       message: 'hello chatbot',
       sender: 'userprofileimage',
@@ -24,13 +25,8 @@ function App() {
 
   return (
       <div className="app-container">
-          < ChatMessages 
-            chatMessages = {chatMessages} 
-          />
-          < ChatInput 
-            chatMessages={chatMessages} 
-            setChatMessages={setChatMessages} 
-          />
+          < ChatMessages chatMessages = {chatMessages} />
+          < ChatInput chatMessages={chatMessages} setChatMessages={setChatMessages} />
       </div>
   );
 };
