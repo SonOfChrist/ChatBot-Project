@@ -7,19 +7,19 @@ function App() {
   const [chatMessages, setChatMessages] = useState([{
       message: 'hello chatbot',
       sender: 'userprofileimage',
-      id: 'id1'
+      id: crypto.randomUUID()
   }, {
       message: 'Hello! How can i help you',
       sender: 'robotprofileimage',
-      id: 'id2'
+      id: crypto.randomUUID()
   }, {
       message: 'can you get me Todays Date?',
       sender: 'userprofileimage',
-      id: 'id3'
+      id: crypto.randomUUID()
   }, {
       message: 'Today is MAY 14',
       sender: 'robotprofileimage',
-      id: 'id4'
+      id: crypto.randomUUID()
   }]);
 
   return (

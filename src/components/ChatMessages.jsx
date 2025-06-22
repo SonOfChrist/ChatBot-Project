@@ -11,6 +11,7 @@ function ChatMessages({ chatMessages }) {
       }
   }, [chatMessages]);                       //Dependancy Array 
 
+  //Genarate Chat Messages
   return(
       <div className="chat-messages-container" ref={chatMessagesRef}>
           { chatMessages.map((chatMessage) => {
